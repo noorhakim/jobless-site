@@ -15,17 +15,24 @@
   <div class="wrapper bg-blur">
 
     <header>
-      <div class="container flex items-center justify-between">
+      <div class="container flex items-center justify-between relative">
         <a href="#" class="logo">Jobless</a>
-        <button class="nav-btn">Menu</button>
-        <nav class="nav">
+        <button class="nav-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav absolute">
           <ul role="list" class="nav-list">
             <li><a href="#">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Post a Job</a></li>
             <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sign up</a></li>
           </ul>
         </nav>
+        <!-- /.nav -->
         <button class="btn-md btn-sign-up">Sign Up</button>
       </div>
       <!-- /.container -->
@@ -38,7 +45,7 @@
           <p class="hero-description">Discover a wide range of remote opportunities on our platform and take control of your career</p>
           <div class="hero-cta">
             <button class="btn-lg btn-primary">Explore Remote Jobs</button>
-            <a href="#">How it works?</a>
+            <a href="#" class="btn-lg">How it works?</a>
           </div>
         </div>
       </div>
@@ -108,5 +115,7 @@
   </div>
   <!-- /.wrapper -->
 
+
+  <script src="script.js"></script>
 </body>
 </html>
