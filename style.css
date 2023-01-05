@@ -361,6 +361,7 @@ header {
 .hero-cta a {
   border: 2px solid transparent;
   transition: all .15s ease-in-out;
+  padding: .625rem .9375rem;
 }
 
 .hero-cta a:hover {
@@ -475,7 +476,7 @@ header {
   }
 
   .hero-content {
-    max-width: 70%;
+    max-width: 60%;
   }
 
   .hero-description {
@@ -485,7 +486,7 @@ header {
   .hero-cta {
     flex-direction: row;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.25rem;
   }
 
   .jobs {
@@ -530,6 +531,10 @@ header {
     background: 0;
     color: var(--clr-black);
     font-weight: 500;
+  }
+
+  .hero-title {
+    line-height: 1.5;
   }
 
   .jobs {
